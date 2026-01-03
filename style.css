@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+   
+}
+.main{
+    height: 80vh;
+    background-image: url(/images/img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.images{
+    padding: 20px 22px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navlinks{
+    padding: 22px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navlinks ul{
+    display: inline-flex;
+    gap: 40px;
+}
+.navlinks ul li{
+    list-style: none;
+    font-size: 11px;
+    font-weight: 600;
+}
+.navlinks ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.navlinks ul li a.active{
+    color: orange;
+     border-bottom: 2px solid orange;
+    padding-bottom: 3px;
+}
+.icons{
+    margin: 22px 20px;
+    color: #000;
+    gap: 15px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.icons i{
+    font-size: 18px;
+}
+.overlay-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.overlay-content h1{
+    font-size: 40px;
+}
+.overlay-content p{
+    color: #e0d1d1;
+    margin-top: 17px;
+    font-size: 13px;
+}
+.btns{
+   margin: 20px 0;
+   display: flex;
+   justify-content: center;
+   gap: 25px;
+}
+.btn1{
+    width: 130px;
+    height: 38px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background: orange;
+    color: #fff;
+    font-size: 10px;
+}
+.btn2{
+    width: 130px;
+    height: 38px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    font-size: 10px;
+}
+.footer{
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.foot1{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.top{
+    display: flex;
+    gap: 10px;
+}
+.top i{
+    color: orange;
+    font-size: 32px;
+    font-weight: 300;
+}
+.top h3{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.foot1 p{
+    color: #b7adad;
+    font-size: 12px;
+    margin-left: 48px;
+}
